@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <title>Meu saite</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <p>Esse é o meu site</p>
+    <p>Hello World</p>
+    <button onclick="f()">Login</button>
+    <div id="a"></div>
+  </body>
+  <script>
+    function f(){
+      var name = prompt('qual tu nombre')
+      document.getElementById('a').innerHTML = "<p>" + name + "</p>";
+    }
+  </script>
+</html>
